@@ -1,0 +1,21 @@
+general { 
+	colors = true interval = 5 
+}
+
+order += "battery all" 
+order += "memory" 
+order += "tztime local"
+
+battery all { 
+	format = "BATERY %status %percentage %remaining" 
+} 
+
+memory { 
+	format = "in use RAM %used | available RAM %available" 
+	threshold_degraded = "1G" 
+	format_degraded = "MEMORY < %available" 
+}
+
+tztime local { 
+	format = "%a %d/%m/%Y %H:%M" 
+}
