@@ -72,7 +72,7 @@ nmcli dev wifi list
 
 sudo nmcli --ask dev wifi connect "$1"
 
-sudo pacman -S xorg xorg-xinit i3 xfce4-terminal firefox dmenu keepassxc alsa-utils pulseaudio htop brightnessctl xclip maim libreoffice lxappearance arc-gtk-theme bluez bluez-utils pulseaudio-bluetooth cups cups-pdf usbutils openssh hplip xss-lock tmux git thunar gvfs vlc zvbi xdotool dunst bluez-dinit cups-dinit
+sudo pacman -S xorg xorg-xinit i3 xfce4-terminal firefox dmenu keepassxc alsa-utils pulseaudio htop brightnessctl xclip maim libreoffice lxappearance arc-gtk-theme bluez bluez-utils pulseaudio-bluetooth cups cups-pdf usbutils openssh hplip xss-lock tmux git thunar gvfs vlc zvbi xdotool dunst bluez-dinit cups-dinit unrar unzip java-runtime-common jre-openjdk
 
 nvim ~/.xinitrc #exec /usr/bin/i3
 

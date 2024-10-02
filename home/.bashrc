@@ -13,6 +13,7 @@ alias cleantmux='tmux kill-session -a'
 alias poweroff='loginctl poweroff'
 alias reboot='loginctl reboot'
 alias thunar='dbus-launch thunar'
+alias digital='java -jar ~/Repositories/MyOwnPC/Digital/Digital.jar'
 PS1='[\u@\h \W]\$ '
 
 function wifiList() {
